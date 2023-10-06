@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ticket_Reservation_system</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\StudentController\" />
+    <None Remove="Models\StudentModel\" />
+    <None Remove="Services\StudentService\" />
+    <None Remove="Models\TravelerModule\" />
+    <None Remove="Controllers\TravelerController\" />
+    <None Remove="Services\TravelerService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\StudentController\" />
+    <Folder Include="Models\StudentModel\" />
+    <Folder Include="Services\StudentService\" />
+    <Folder Include="Models\TravelerModule\" />
+    <Folder Include="Controllers\TravelerController\" />
+    <Folder Include="Services\TravelerService\" />
+  </ItemGroup>
+</Project>
