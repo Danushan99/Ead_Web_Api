@@ -3,9 +3,11 @@ using MongoDB.Driver;
 using Ticket_Reservation_system.Models;
 using Ticket_Reservation_system.Models.TrainModel;
 using Ticket_Reservation_system.Models.TravelerModule;
+using Ticket_Reservation_system.Models.UserModel;
 using Ticket_Reservation_system.Services;
 using Ticket_Reservation_system.Services.TrainService;
 using Ticket_Reservation_system.Services.TravelerService;
+using Ticket_Reservation_system.Services.UserService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,6 +50,20 @@ builder.Services.AddSingleton<IMongoClient>(s =>
     new MongoClient(builder.Configuration.GetValue<string>("TravelerStoreDatabaseSettings:ConnectionString")));
 
 builder.Services.AddScoped<ITravelerService, TravelerService>();
+
+
+// User Service container
+
+builder.Services.Configure<UserStoreDatabaseSettings>(
+    builder.Configuration.GetSection(nameof(UserStoreDatabaseSettings)));
+
+builder.Services.AddSingleton<IUserStoreDatabaseSettings>(sp =>
+    sp.GetRequiredService<IOptions<UserStoreDatabaseSettings>>().Value);
+
+builder.Services.AddSingleton<IMongoClient>(s =>
+    new MongoClient(builder.Configuration.GetValue<string>("UserStoreDatabaseSettings:ConnectionString")));
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 
 builder.Services.AddControllers();
