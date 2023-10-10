@@ -6,26 +6,25 @@ namespace Ticket_Reservation_system.Models.bookingModel;
 
 public class Booking
 {
-    [BsonIgnoreExtraElements]
-    public class Student
-    {
-        [BsonId]
+    
+
+   
+    
+     [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; } = String.Empty;
 
         [BsonElement("travalerNIC")]
         public string TravalerNIC { get; set; } = String.Empty;
 
-        [BsonElement("graduated")]
-        public bool IsGraduated { get; set; }
+        [BsonElement("dateofbooking")]
+        public DateTime DateofBooking { get; set; }
 
-        [BsonElement("courses")]
-        public string[]? Courses { get; set; }
+        [BsonElement("dateofreseravtion")]
+        public DateTime DateofReseravtion { get; set; }
 
-        [BsonElement("gender")]
-        public string Gender { get; set; } = String.Empty;
+        [BsonElement("refid")]
+        public string RefID { get; set; } = String.Empty;
 
-        [BsonElement("age")]
-        public int Age { get; set; }
-    }
+    
 }

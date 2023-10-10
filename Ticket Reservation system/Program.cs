@@ -1,10 +1,12 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Ticket_Reservation_system.Models;
+using Ticket_Reservation_system.Models.bookingModel;
 using Ticket_Reservation_system.Models.TrainModel;
 using Ticket_Reservation_system.Models.TravelerModule;
 using Ticket_Reservation_system.Models.UserModel;
 using Ticket_Reservation_system.Services;
+using Ticket_Reservation_system.Services.BookingService;
 using Ticket_Reservation_system.Services.TrainService;
 using Ticket_Reservation_system.Services.TravelerService;
 using Ticket_Reservation_system.Services.UserService;
@@ -64,6 +66,21 @@ builder.Services.AddSingleton<IMongoClient>(s =>
     new MongoClient(builder.Configuration.GetValue<string>("UserStoreDatabaseSettings:ConnectionString")));
 
 builder.Services.AddScoped<IUserService, UserService>();
+
+
+// Booking Service container
+
+builder.Services.Configure<BookingStoreDatabaseSettings>(
+    builder.Configuration.GetSection(nameof(BookingStoreDatabaseSettings)));
+
+builder.Services.AddSingleton<IBookingStoreDatabaseSettings>(sp =>
+    sp.GetRequiredService<IOptions<BookingStoreDatabaseSettings>>().Value);
+
+builder.Services.AddSingleton<IMongoClient>(s =>
+    new MongoClient(builder.Configuration.GetValue<string>("BookingStoreDatabaseSettings:ConnectionString")));
+
+builder.Services.AddScoped<IBookingService, BookingService>();
+
 
 
 builder.Services.AddControllers();

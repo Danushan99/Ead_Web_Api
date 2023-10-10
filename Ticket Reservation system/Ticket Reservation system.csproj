@@ -11,7 +11,6 @@
     <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
-
   <ItemGroup>
     <None Remove="Controllers\StudentController\" />
     <None Remove="Models\StudentModel\" />
@@ -23,6 +22,8 @@
     <None Remove="Models\userModel\" />
     <None Remove="Controllers\UserContoller\" />
     <None Remove="Services\UserServices\" />
+    <None Remove="Controllers\BookingController\" />
+    <None Remove="Services\BookingService\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\StudentController\" />
@@ -35,5 +36,7 @@
     <Folder Include="Models\userModel\" />
     <Folder Include="Controllers\UserContoller\" />
     <Folder Include="Services\UserServices\" />
+    <Folder Include="Controllers\BookingController\" />
+    <Folder Include="Services\BookingService\" />
   </ItemGroup>
 </Project>
