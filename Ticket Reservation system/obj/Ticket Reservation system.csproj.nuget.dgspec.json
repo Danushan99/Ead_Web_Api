@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/Ticket Reservation system.csproj": {}
+    "/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/Ticket Reservation system.csproj": {}
   },
   "projects": {
-    "/Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/Ticket Reservation system.csproj": {
+    "/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/Ticket Reservation system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/Ticket Reservation system.csproj",
+        "projectUniqueName": "/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/Ticket Reservation system.csproj",
         "projectName": "Ticket Reservation system",
-        "projectPath": "/Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/Ticket Reservation system.csproj",
+        "projectPath": "/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/Ticket Reservation system.csproj",
         "packagesPath": "/Users/dhanu/.nuget/packages/",
-        "outputPath": "/Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/obj/",
+        "outputPath": "/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dhanu/.nuget/NuGet/NuGet.Config"

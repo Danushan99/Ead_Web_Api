@@ -133,3 +133,48 @@ C:/Users/theeban/source/repos/Ticket Reservation system/Ticket Reservation syste
 /Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.pdb
 /Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.genruntimeconfig.cache
 /Users/dhanu/Desktop/EAD/Ticket Reservation system/Ticket Reservation system/obj/Debug/net6.0/ref/Ticket Reservation system.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/appsettings.Development.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/appsettings.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Ticket Reservation system
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Ticket Reservation system.deps.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Ticket Reservation system.runtimeconfig.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Ticket Reservation system.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Ticket Reservation system.pdb
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/AWSSDK.SecurityToken.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/DnsClient.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/MongoDB.Bson.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/MongoDB.Driver.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/MongoDB.Driver.Core.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/SharpCompress.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Snappier.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/ZstdSharp.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.csproj.AssemblyReference.cache
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.AssemblyInfoInputs.cache
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.AssemblyInfo.cs
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.csproj.CoreCompileInputs.cache
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.MvcApplicationPartsAssemblyInfo.cs
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.MvcApplicationPartsAssemblyInfo.cache
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets/msbuild.Ticket Reservation system.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets/msbuild.build.Ticket Reservation system.props
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Ticket Reservation system.props
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Ticket Reservation system.props
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets.build.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/staticwebassets.development.json
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/scopedcss/bundle/Ticket Reservation system.styles.css
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.csproj.CopyComplete
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/refint/Ticket Reservation system.dll
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.pdb
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/Ticket Reservation system.genruntimeconfig.cache
+/Users/dhanu/Downloads/abilash/Ead_Web_Api/Ticket Reservation system/obj/Debug/net6.0/ref/Ticket Reservation system.dll
